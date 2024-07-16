@@ -2,7 +2,7 @@ title: "Chloe's Personal Site"
 name: "Chloe Park"
 description: "Chloe's Homepage and Blog"
 url: "https://ChloePark85.github.io"
-minimal_mistakes_skin: "default" # 또는 원하는 스킨으로 변경
+minimal_mistakes_skin: "contrast" # 또는 원하는 스킨으로 변경
 author:
   name: "Chloe Park"
   avatar: "/assets/images/bio-photo.jpg" # 프로필 사진 추가 시 경로 설정
