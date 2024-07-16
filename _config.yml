@@ -1,0 +1,43 @@
+title: "Chloe's Personal Site"
+name: "Chloe Park"
+description: "Chloe's Homepage and Blog"
+url: "https://ChloePark85.github.io"
+minimal_mistakes_skin: "default" # 또는 원하는 스킨으로 변경
+author:
+  name: "Chloe Park"
+  avatar: "/assets/images/bio-photo.jpg" # 프로필 사진 추가 시 경로 설정
+  bio: "Inventor"
+  location: "Seoul, Korea"
+  email: "hapark85@gmail.com"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:hapark85@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ChloePark85"
+    # 필요한 다른 소셜 미디어 링크 추가
+comments:
+  provider: "disqus" # 댓글 시스템을 사용하려면 설정
+  disqus:
+    shortname: "your-disqus-shortname" # 실제 Disqus 숏네임으로 변경
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
