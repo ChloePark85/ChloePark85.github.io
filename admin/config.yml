@@ -1,0 +1,132 @@
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
+
+backend:
+  name: github
+  repo: ChloePark85/ChloePark85.github.io
+  branch: master
+
+# Sveltia에서 업로드한 이미지가 저장될 위치
+media_folder: assets/images/uploads
+public_folder: /assets/images/uploads
+
+# 사이트 URL (Preview/Open links 용)
+site_url: https://chloepark85.github.io
+
+# Editor preview off (Minimal Mistakes 스타일 없이는 부정확함)
+editor:
+  preview: false
+
+collections:
+  # --------- 블로그 포스트 ---------
+  - name: posts
+    label: 포스트
+    label_singular: 포스트
+    folder: _posts
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    extension: md
+    format: yaml-frontmatter
+    summary: "{{title}} — {{year}}-{{month}}-{{day}}"
+    sortable_fields: [date, title]
+    view_filters:
+      - label: "최근 1년"
+        field: date
+        pattern: "2026"
+    fields:
+      - { name: title, label: 제목, widget: string }
+      - {
+          name: date,
+          label: 작성일,
+          widget: datetime,
+          date_format: "YYYY-MM-DD",
+          time_format: "HH:mm",
+          format: "YYYY-MM-DD HH:mm:ss Z",
+        }
+      - {
+          name: categories,
+          label: 카테고리,
+          widget: list,
+          required: false,
+          default: [],
+        }
+      - { name: tags, label: 태그, widget: list, required: false, default: [] }
+      - { name: excerpt, label: 요약(목록 노출용), widget: text, required: false }
+      - {
+          name: header,
+          label: 헤더 이미지,
+          widget: object,
+          required: false,
+          fields:
+            [
+              { name: teaser, label: 썸네일, widget: image, required: false },
+              {
+                name: overlay_image,
+                label: 상단 배경,
+                widget: image,
+                required: false,
+              },
+            ],
+        }
+      - { name: body, label: 본문, widget: markdown }
+
+  # --------- 페이지 ---------
+  - name: pages
+    label: 페이지
+    files:
+      - file: _pages/about.md
+        label: About
+        name: about
+        fields:
+          - { name: title, label: title, widget: hidden, default: "About" }
+          - {
+              name: permalink,
+              label: permalink,
+              widget: hidden,
+              default: "/about/",
+            }
+          - { name: layout, label: layout, widget: hidden, default: single }
+          - {
+              name: author_profile,
+              label: author_profile,
+              widget: hidden,
+              default: true,
+            }
+          - { name: body, label: 본문, widget: markdown }
+      - file: _pages/projects.md
+        label: Projects
+        name: projects
+        fields:
+          - { name: title, label: title, widget: hidden, default: "Projects" }
+          - {
+              name: permalink,
+              label: permalink,
+              widget: hidden,
+              default: "/projects/",
+            }
+          - { name: layout, label: layout, widget: hidden, default: single }
+          - {
+              name: author_profile,
+              label: author_profile,
+              widget: hidden,
+              default: true,
+            }
+          - { name: body, label: 본문, widget: markdown }
+      - file: _pages/contact.md
+        label: Contact
+        name: contact
+        fields:
+          - { name: title, label: title, widget: hidden, default: "Contact" }
+          - {
+              name: permalink,
+              label: permalink,
+              widget: hidden,
+              default: "/contact/",
+            }
+          - { name: layout, label: layout, widget: hidden, default: single }
+          - {
+              name: author_profile,
+              label: author_profile,
+              widget: hidden,
+              default: true,
+            }
+          - { name: body, label: 본문, widget: markdown }

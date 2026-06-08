@@ -1,4 +1,50 @@
 <link
-  href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
   rel="stylesheet"
+  as="style"
+  crossorigin
+  href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"
 />
+<style>
+  :root {
+    --korean-sans: "Pretendard Variable", Pretendard, -apple-system,
+      BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic",
+      sans-serif;
+  }
+
+  body,
+  .page__title,
+  .page__lead,
+  .archive__item-title,
+  .archive__item-excerpt,
+  .sidebar,
+  .greedy-nav,
+  .masthead,
+  h1, h2, h3, h4, h5, h6,
+  p, li, a, blockquote {
+    font-family: var(--korean-sans) !important;
+  }
+
+  /* 텍스트 그림자 전부 제거 */
+  .page__title,
+  .page__lead,
+  .page__hero-caption,
+  .page__hero--overlay .page__title,
+  .page__hero--overlay .page__lead,
+  .archive__item-title,
+  .archive__item-excerpt,
+  .masthead__menu-item a,
+  h1, h2, h3, h4, h5, h6 {
+    text-shadow: none !important;
+  }
+
+  /* 본문 가독성 살짝 정리 */
+  .page__content p,
+  .page__content li {
+    line-height: 1.75;
+  }
+
+  /* 사이드바 author bio 줄간격 */
+  .author__bio {
+    line-height: 1.5;
+  }
+</style>

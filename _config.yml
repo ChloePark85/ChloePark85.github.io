@@ -1,43 +1,111 @@
-title: "Chloe's Personal Site"
-name: "Chloe Park"
-description: "Chloe's Homepage and Blog"
-url: "https://ChloePark85.github.io"
-minimal_mistakes_skin: "contrast" # 또는 원하는 스킨으로 변경
-author:
-  name: "Chloe Park"
-  avatar: "/assets/images/bio-photo.jpg" # 프로필 사진 추가 시 경로 설정
-  bio: "Inventor"
-  location: "Seoul, Korea"
-  email: "hapark85@gmail.com"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:hapark85@gmail.com"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/ChloePark85"
-    # 필요한 다른 소셜 미디어 링크 추가
-comments:
-  provider: "disqus" # 댓글 시스템을 사용하려면 설정
-  disqus:
-    shortname: "your-disqus-shortname" # 실제 Disqus 숏네임으로 변경
+# Theme (Minimal Mistakes via remote_theme — GitHub Pages 호환)
+remote_theme           : "mmistakes/minimal-mistakes@4.27.1"
+minimal_mistakes_skin  : "air"
 
+# Site Settings
+locale                 : "ko-KR"
+title                  : "Chloe Park"
+title_separator        : "·"
+subtitle               : "AI 자동화 실험실"
+name                   : "박현아 (Chloe Park)"
+description            : "AI 에이전트와 자동화 시스템을 설계합니다. 1인 기업이 AI 팀과 협업하는 워크플로를 실험하고 기록합니다."
+url                    : "https://chloepark85.github.io"
+baseurl                : ""
+repository             : "ChloePark85/ChloePark85.github.io"
+search                 : true
+
+# Site Author
+author:
+  name                 : "박현아 · Chloe Park"
+  avatar               : "https://github.com/ChloePark85.png"
+  bio                  : "AI 에이전트·자동화 시스템 설계자 / 《나는 AI 에이전트 팀과 일한다》 저자"
+  location             : "Seoul, Korea"
+  links:
+    - label            : "Email"
+      icon             : "fas fa-fw fa-envelope-square"
+      url              : "mailto:hapark85@gmail.com"
+    - label            : "GitHub"
+      icon             : "fab fa-fw fa-github"
+      url              : "https://github.com/ChloePark85"
+    - label            : "YouTube"
+      icon             : "fab fa-fw fa-youtube"
+      url              : "https://www.youtube.com/@chloe.systems"
+    - label            : "X"
+      icon             : "fab fa-fw fa-x-twitter"
+      url              : "https://x.com/chloe_systems"
+
+# Footer Links
+footer:
+  links:
+    - label            : "GitHub"
+      icon             : "fab fa-fw fa-github"
+      url              : "https://github.com/ChloePark85"
+    - label            : "YouTube"
+      icon             : "fab fa-fw fa-youtube"
+      url              : "https://www.youtube.com/@chloe.systems"
+
+# Reading Files
+include:
+  - _pages
+
+# Markdown Processing
+markdown               : kramdown
+highlighter            : rouge
+kramdown:
+  input                : GFM
+  hard_wrap            : false
+  auto_ids             : true
+  footnote_nr          : 1
+  entity_output        : as_char
+  toc_levels           : 1..6
+  smart_quotes         : lsquo,rsquo,ldquo,rdquo
+
+# Plugins (GitHub Pages 지원 목록만)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-seo-tag
+
+# Pagination
+paginate               : 5
+paginate_path          : /page:num/
+
+# Permalinks & Timezone
+permalink              : /:categories/:title/
+timezone               : Asia/Seoul
+
+# Comments (일단 끔 — 나중에 giscus/Disqus 켤 수 있음)
+comments:
+  provider             : false
+
+# Archives
+category_archive:
+  type                 : liquid
+  path                 : /categories/
+tag_archive:
+  type                 : liquid
+  path                 : /tags/
+
+# Defaults
 defaults:
   # _posts
   - scope:
-      path: ""
-      type: posts
+      path             : ""
+      type             : posts
     values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+      layout           : single
+      author_profile   : true
+      read_time        : true
+      comments         : false
+      share            : true
+      related          : true
+      show_date        : true
   # _pages
   - scope:
-      path: "_pages"
-      type: pages
+      path             : "_pages"
+      type             : pages
     values:
-      layout: single
-      author_profile: true
+      layout           : single
+      author_profile   : true
