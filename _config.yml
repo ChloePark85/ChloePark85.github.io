@@ -33,6 +33,9 @@ author:
     - label            : "X"
       icon             : "fab fa-fw fa-x-twitter"
       url              : "https://x.com/chloe_systems"
+    - label            : "Instagram"
+      icon             : "fab fa-fw fa-instagram"
+      url              : "https://instagram.com/chloe___park"
 
 # Footer Links
 footer:
