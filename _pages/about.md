@@ -16,8 +16,8 @@ author_profile: false
           AI 팀을 설계합니다.
         </h1>
         <p class="chloe-hero__lead">
-          오디오 콘텐츠 플랫폼 <strong>이어가다(Eargada)</strong>에서 TTS와 멀티 에이전트 기반
-          콘텐츠 자동화를 설계·운영했습니다. 지금은 n8n과 Claude API로
+          오디오 콘텐츠 스타트업을 창업·운영하며 TTS와 멀티 에이전트 기반
+          콘텐츠 자동화를 직접 설계했습니다. 지금은 n8n과 Claude API로
           <strong>1인 기업이 AI 팀과 협업하는 워크플로</strong>를 실험하고 기록합니다.
         </p>
         <div class="chloe-hero__actions">
