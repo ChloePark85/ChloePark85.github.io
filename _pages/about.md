@@ -66,7 +66,7 @@ author_profile: false
       <span class="chloe-eyebrow">Publications</span>
       <h2 class="chloe-section__title">논문 이력</h2>
       <p class="chloe-section__sub">
-        HCI · 대화형 AI · 미디어 연구 논문 20편 ·
+        HCI · 대화형 AI · 미디어 연구 논문 19편 ·
         <a href="https://scholar.google.com/citations?user=OUFAsNIAAAAJ&hl=ko" target="_blank" rel="noopener">Google Scholar에서 보기 →</a>
       </p>
     </header>
