@@ -562,6 +562,48 @@
     line-height: 1.6;
   }
 
+  /* ── Publications ────────────────────────────────────────────── */
+  .chloe-publications {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    border-top: 1px solid var(--chloe-line);
+  }
+  .chloe-publication {
+    display: grid;
+    grid-template-columns: 72px minmax(0, 1fr);
+    gap: 24px;
+    padding: 24px 0;
+    border-bottom: 1px solid var(--chloe-line);
+  }
+  .chloe-publication__year {
+    padding-top: 3px;
+    color: var(--chloe-accent-ink);
+    font-size: 0.82rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+  }
+  .chloe-publication__title {
+    color: var(--chloe-ink) !important;
+    font-size: 1.02rem;
+    font-weight: 700;
+    line-height: 1.55;
+  }
+  .chloe-publication__title:hover { color: var(--chloe-accent-ink) !important; }
+  .chloe-publication__title span {
+    color: var(--chloe-accent);
+    font-size: 0.82em;
+  }
+  .chloe-publication__authors,
+  .chloe-publication__venue {
+    margin-top: 5px;
+    color: var(--chloe-muted);
+    font-size: 0.88rem;
+    line-height: 1.55;
+  }
+  .chloe-publication__venue { color: var(--chloe-ink-soft); }
+
   /* ── Contact cards ────────────────────────────────────────────── */
   .chloe-contact-grid {
     max-width: 1120px;
@@ -711,6 +753,15 @@
 
   @media (max-width: 900px) {
     .chloe-facts { grid-template-columns: 1fr; }
+  }
+
+  @media (max-width: 560px) {
+    .chloe-publication {
+      grid-template-columns: 1fr;
+      gap: 6px;
+      padding: 20px 0;
+    }
+    .chloe-publication__year { padding-top: 0; }
   }
 
   /* ── Post / single layout overrides ──────────────────────────── */

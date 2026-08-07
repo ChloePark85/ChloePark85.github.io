@@ -63,6 +63,32 @@ author_profile: false
 
   <section class="chloe-section">
     <header class="chloe-section__head">
+      <span class="chloe-eyebrow">Publications</span>
+      <h2 class="chloe-section__title">논문 이력</h2>
+      <p class="chloe-section__sub">
+        HCI · 대화형 AI · 미디어 연구 논문 20편 ·
+        <a href="https://scholar.google.com/citations?user=OUFAsNIAAAAJ&hl=ko" target="_blank" rel="noopener">Google Scholar에서 보기 →</a>
+      </p>
+    </header>
+
+    <ol class="chloe-publications">
+      {% for publication in site.data.publications %}
+      <li class="chloe-publication">
+        <div class="chloe-publication__year">{{ publication.year }}</div>
+        <div class="chloe-publication__body">
+          <a class="chloe-publication__title" href="{{ publication.url }}" target="_blank" rel="noopener">
+            {{ publication.title }} <span aria-hidden="true">↗</span>
+          </a>
+          <div class="chloe-publication__authors">{{ publication.authors }}</div>
+          <div class="chloe-publication__venue">{{ publication.venue }}</div>
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+
+  <section class="chloe-section">
+    <header class="chloe-section__head">
       <span class="chloe-eyebrow">Books</span>
       <h2 class="chloe-section__title">저서</h2>
       <p class="chloe-section__sub">6년간의 대화형 AI · 에이전트 연구를 담은 세 권.</p>
