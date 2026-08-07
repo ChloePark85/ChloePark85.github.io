@@ -101,8 +101,7 @@ author_profile: false
            target="_blank" rel="noopener"
            aria-label="나는 AI 에이전트 팀과 일한다 · 교보문고에서 보기">
           <span class="chloe-book__label">신간</span>
-          <span class="chloe-book__title">나는 AI 에이전트<br/>팀과 일한다</span>
-          <span class="chloe-book__author">박현아</span>
+          <img class="chloe-book__image" src="/assets/images/books/ai-agent-team.jpg" alt="나는 AI 에이전트 팀과 일한다 표지" loading="lazy" />
         </a>
         <div class="chloe-book__meta">제이펍 · 2026</div>
         <p class="chloe-book__desc">n8n과 Claude·OpenAI로 고객 지원, 콘텐츠, 데이터, 마케팅 네 AI 팀을 직접 구축하는 실전 가이드.</p>
@@ -113,8 +112,7 @@ author_profile: false
            href="https://product.kyobobook.co.kr/detail/S000215723795"
            target="_blank" rel="noopener"
            aria-label="AI 에이전트와 자동화 · 교보문고에서 보기">
-          <span class="chloe-book__title">AI 에이전트와<br/>자동화</span>
-          <span class="chloe-book__author">박현아</span>
+          <img class="chloe-book__image" src="/assets/images/books/ai-agents-automation.jpg" alt="AI 에이전트와 자동화 표지" loading="lazy" />
         </a>
         <div class="chloe-book__meta">커뮤니케이션북스 · 2025</div>
         <p class="chloe-book__desc">AI 에이전트 시대의 워크플로 설계와 자동화 개념을 처음부터 정리한 입문서.</p>
@@ -125,8 +123,7 @@ author_profile: false
            href="https://product.kyobobook.co.kr/detail/S000001944968"
            target="_blank" rel="noopener"
            aria-label="인공지능, 말을 걸다 · 교보문고에서 보기">
-          <span class="chloe-book__title">인공지능,<br/>말을 걸다</span>
-          <span class="chloe-book__author">박현아</span>
+          <img class="chloe-book__image" src="/assets/images/books/talking-ai.jpg" alt="인공지능, 말을 걸다 표지" loading="lazy" />
         </a>
         <div class="chloe-book__meta">스리체어스 · 2020</div>
         <p class="chloe-book__desc">대화형 AI와 인간의 관계를 인문학적 관점으로 풀어낸 에세이.</p>
