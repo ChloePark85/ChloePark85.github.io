@@ -36,6 +36,9 @@ author:
     - label            : "Instagram"
       icon             : "fab fa-fw fa-instagram"
       url              : "https://instagram.com/chloe___park"
+    - label            : "LinkedIn"
+      icon             : "fab fa-fw fa-linkedin"
+      url              : "https://www.linkedin.com/in/chloe-hyunah-park-96725a95/"
 
 # Footer Links
 footer:
@@ -55,6 +58,9 @@ footer:
     - label            : "Instagram"
       icon             : "fab fa-fw fa-instagram"
       url              : "https://instagram.com/chloe___park"
+    - label            : "LinkedIn"
+      icon             : "fab fa-fw fa-linkedin"
+      url              : "https://www.linkedin.com/in/chloe-hyunah-park-96725a95/"
 
 # Reading Files
 include:

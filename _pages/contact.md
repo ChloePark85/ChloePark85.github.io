@@ -68,6 +68,13 @@ author_profile: false
         <div class="chloe-contact-card__value">@chloe___park</div>
         <div class="chloe-contact-card__hint">일상 · 브이로그</div>
       </a>
+
+      <a class="chloe-contact-card" href="https://www.linkedin.com/in/chloe-hyunah-park-96725a95/" target="_blank" rel="noopener">
+        <div class="chloe-contact-card__icon"><i class="fab fa-linkedin"></i></div>
+        <div class="chloe-contact-card__label">LinkedIn</div>
+        <div class="chloe-contact-card__value">Chloe Hyunah Park</div>
+        <div class="chloe-contact-card__hint">경력 · 연구 · 전문 활동</div>
+      </a>
     </div>
   </section>
 
