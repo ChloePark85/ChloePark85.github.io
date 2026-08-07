@@ -57,7 +57,7 @@ author_profile: false
 
       <a class="chloe-contact-card" href="https://x.com/chloe_systems" target="_blank" rel="noopener">
         <div class="chloe-contact-card__icon"><i class="fab fa-x-twitter"></i></div>
-        <div class="chloe-contact-card__label">X / Threads</div>
+        <div class="chloe-contact-card__label">X</div>
         <div class="chloe-contact-card__value">@chloe_systems</div>
         <div class="chloe-contact-card__hint">짧은 실험 기록</div>
       </a>

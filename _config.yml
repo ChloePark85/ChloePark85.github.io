@@ -40,12 +40,21 @@ author:
 # Footer Links
 footer:
   links:
+    - label            : "Email"
+      icon             : "fas fa-fw fa-envelope-square"
+      url              : "mailto:hapark85@gmail.com"
     - label            : "GitHub"
       icon             : "fab fa-fw fa-github"
       url              : "https://github.com/ChloePark85"
     - label            : "YouTube"
       icon             : "fab fa-fw fa-youtube"
       url              : "https://www.youtube.com/@chloe.systems"
+    - label            : "X"
+      icon             : "fab fa-fw fa-x-twitter"
+      url              : "https://x.com/chloe_systems"
+    - label            : "Instagram"
+      icon             : "fab fa-fw fa-instagram"
+      url              : "https://instagram.com/chloe___park"
 
 # Reading Files
 include:

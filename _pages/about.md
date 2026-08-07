@@ -153,7 +153,7 @@ author_profile: false
       <a class="chloe-project" href="https://x.com/chloe_systems" target="_blank" rel="noopener">
         <div class="chloe-project__icon">🧵</div>
         <h3 class="chloe-project__title">@chloe_systems</h3>
-        <p class="chloe-project__desc">X · Threads · Instagram — 짧은 실험 기록.</p>
+        <p class="chloe-project__desc">X에서 공유하는 짧은 실험 기록.</p>
         <div class="chloe-project__tags"><span>Social</span></div>
       </a>
     </div>
