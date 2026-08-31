@@ -436,6 +436,16 @@
     border-color: rgba(99, 102, 241, 0.35);
     box-shadow: 0 20px 40px -18px rgba(15, 23, 42, 0.15);
   }
+  /* intro-only cards (no repo link yet): no lift, dashed border */
+  .chloe-project--teaser {
+    border-style: dashed;
+    cursor: default;
+  }
+  .chloe-project--teaser:hover {
+    transform: none;
+    box-shadow: none;
+    border-color: var(--chloe-line);
+  }
   .chloe-project__icon {
     font-size: 1.9rem;
     margin-bottom: 14px;
