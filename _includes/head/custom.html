@@ -548,7 +548,7 @@
     justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
-    margin: 2.5em 0 1em;
+    margin: 56px 0 24px !important;
     padding: 20px 24px;
     background: rgba(99, 102, 241, 0.06);
     border: 1px solid rgba(99, 102, 241, 0.2);
@@ -585,6 +585,14 @@
     align-items: stretch;
     gap: 14px;
   }
+  /* bare variant: inside an existing card (home CTA) — no own box */
+  .chloe-newsletter--bare {
+    background: none;
+    border: 0;
+    padding: 0;
+    margin: 24px 0 0 !important;
+  }
+  .chloe-newsletter--form #stb_subscribe .stb_form { background: none; padding: 0; margin: 0; border: 0; }
   .chloe-newsletter--form #stb_subscribe .stb_form_set { border: 0; padding: 0; margin: 0; }
   .chloe-newsletter--form .stb_form_set_label { display: none; }
   .chloe-newsletter__row { display: flex; gap: 10px; flex-wrap: wrap; }
