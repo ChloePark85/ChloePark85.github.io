@@ -4,9 +4,6 @@ permalink: /contact/
 layout: splash
 author_profile: false
 excerpt: "박현아(Chloe Park)에게 연락하기. 협업·강연·인터뷰 문의는 이메일(hapark85@gmail.com) 또는 GitHub, YouTube, X, LinkedIn으로."
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
 ---
 
 <div class="chloe-home">

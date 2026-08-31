@@ -4,9 +4,6 @@ permalink: /about/
 layout: splash
 author_profile: false
 excerpt: "박현아(Chloe Park)는 AI 에이전트와 자동화 시스템 설계자이자 저자. 서울대 HCI+D 연구실 박사 과정 수료, KAIST 문화기술대학원 석사. 3권의 AI 관련 저서와 19편의 HCI 연구 논문."
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
 ---
 
 <div class="chloe-home">

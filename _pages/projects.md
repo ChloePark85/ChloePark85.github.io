@@ -4,9 +4,6 @@ permalink: /projects/
 layout: splash
 author_profile: false
 excerpt: "n8n·Claude·TypeScript·Python으로 만든 AI 에이전트와 자동화 워크플로 실험 프로젝트. 박현아(Chloe Park)의 100+ GitHub 레포지토리 대표작."
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
 ---
 
 <div class="chloe-home">
