@@ -490,21 +490,36 @@
   .chloe-cta .chloe-section__title { margin-top: 8px !important; }
   .chloe-channels {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 12px;
   }
   .chloe-channel {
     display: flex;
     align-items: center;
     gap: 12px;
+    min-width: 0;
     padding: 16px 18px;
     border: 1px solid var(--chloe-line);
     border-radius: 12px;
     color: var(--chloe-ink) !important;
     font-weight: 600;
+    font-size: 0.9rem;
     transition: transform 0.15s ease, border-color 0.15s ease, color 0.15s ease;
   }
+  .chloe-channel span {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  /* the email address is the longest label — give it (and the last card,
+     for symmetry) the full row */
+  .chloe-channel[href^="mailto:"],
+  .chloe-channel:last-child {
+    grid-column: 1 / -1;
+  }
   .chloe-channel i {
+    flex-shrink: 0;
     width: 24px;
     text-align: center;
     color: var(--chloe-accent);
