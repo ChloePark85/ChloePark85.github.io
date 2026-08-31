@@ -1,0 +1,48 @@
+Hyunah Park (박현아, also known as Chloe Park)
+AI Agent and Automation Systems Designer
+Seoul, Korea
+
+Website: https://chloepark85.github.io
+Email: hapark85@gmail.com
+GitHub: https://github.com/ChloePark85
+
+Summary:
+Hyunah Park designs AI agent teams and automation workflows for solopreneurs and one-person companies. She experiments with n8n, Claude API, TTS, and multi-agent systems to help individuals collaborate with AI teams.
+
+Education:
+- Ph.D. coursework: Seoul National University, HCI+D Lab (Human-AI agent interaction research)
+- M.S.: KAIST, Graduate School of Culture Technology
+- B.A.: Yonsei University, Department of Communication
+
+Books:
+1. "나는 AI 에이전트 팀과 일한다" (I Work with an AI Agent Team), JPub, 2026
+   Practical guide to building AI teams with n8n and Claude/OpenAI
+   https://product.kyobobook.co.kr/detail/S000220511750
+
+2. "AI 에이전트와 자동화" (AI Agents and Automation), Communication Books, 2025
+   Introduction to AI agent workflow design and automation
+   https://product.kyobobook.co.kr/detail/S000215723795
+
+3. "인공지능, 말을 걸다" (Talking with AI), Three Chairs, 2020
+   Humanistic essay on conversational AI and human relationships
+   https://product.kyobobook.co.kr/detail/S000001944968
+
+Research:
+19 published papers in HCI, conversational AI, and media studies
+Google Scholar: https://scholar.google.com/citations?user=OUFAsNIAAAAJ&hl=ko
+
+Featured Projects:
+- ai-team-book-examples: Example code for building 4 AI teams with n8n, Claude, and Airtable
+- ai_showhost: Automating live show host broadcasting with TTS and agents
+- ai-company-os: Operating system concept for one-person companies
+
+Social Media:
+- YouTube: https://www.youtube.com/@chloe.systems (Chloe의 자동화연구소)
+- X (Twitter): https://x.com/chloe_systems
+- LinkedIn: https://www.linkedin.com/in/chloe-hyunah-park-96725a95/
+- Instagram: https://instagram.com/chloe___park
+
+Expertise: AI agents, automation systems, n8n, Claude API, TTS, multi-agent systems, HCI, conversational AI, workflow design, solopreneur tools
+
+Location: Seoul, Korea
+Language: Korean (primary), English
