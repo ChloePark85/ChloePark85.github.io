@@ -9,7 +9,6 @@ tags:
   - 공공데이터
   - Korea-Ground-Truth
 excerpt: "국세청·DART·행안부·국토부·법제처 API를 하나의 MCP로 묶고, 고객을 사람이 아니라 AI 에이전트로 가정하고 설계한 SaaS 이야기."
-header: null
 toc: true
 toc_sticky: true
 ---
