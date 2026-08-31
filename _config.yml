@@ -83,6 +83,9 @@ footer:
 # Reading Files
 include:
   - _pages
+  - robots.txt
+  - llms.txt
+  - about.txt
 
 # Markdown Processing
 markdown               : kramdown
