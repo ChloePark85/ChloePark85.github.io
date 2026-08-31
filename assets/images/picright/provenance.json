@@ -1,0 +1,27 @@
+[
+  {
+    "basis": "original",
+    "image_id": "diagram:picright-basis-decision",
+    "provider": "openverse",
+    "provider_id": "picright-basis-decision",
+    "title": "문단별 이미지 타입 결정 흐름",
+    "creator": "author",
+    "source_url": "",
+    "download_url": "",
+    "license": {
+      "id": "Original work (generated from the author's own content)",
+      "url": "",
+      "commercial_use": true,
+      "modification_allowed": true,
+      "attribution_required": false,
+      "attribution_recommended": false,
+      "share_alike": false,
+      "caveats": []
+    },
+    "attribution_text": "",
+    "file": "../assets/images/picright/picright-basis-decision.png",
+    "inserted_into": "2026-08-31-picright-mcp.md",
+    "anchor": "after_block:7",
+    "checked_at": "2026-08-31T14:02:41.448Z"
+  }
+]
