@@ -1,0 +1,110 @@
+[
+  {
+    "basis": "original",
+    "image_id": "diagram:kgt-payment-loop",
+    "provider": "openverse",
+    "provider_id": "kgt-payment-loop",
+    "title": "에이전트가 사람에게 결제를 요청하는 루프",
+    "creator": "author",
+    "source_url": "",
+    "download_url": "",
+    "license": {
+      "id": "Original work (generated from the author's own content)",
+      "url": "",
+      "commercial_use": true,
+      "modification_allowed": true,
+      "attribution_required": false,
+      "attribution_recommended": false,
+      "share_alike": false,
+      "caveats": []
+    },
+    "attribution_text": "",
+    "file": "../assets/images/kgt/kgt-payment-loop.png",
+    "inserted_into": "2026-08-27-korea-ground-truth-mcp.md",
+    "anchor": "after_block:14",
+    "checked_at": "2026-08-31T10:39:57.846Z"
+  },
+  {
+    "basis": "original",
+    "image_id": "diagram:kgt-architecture",
+    "provider": "openverse",
+    "provider_id": "kgt-architecture",
+    "title": "다섯 기관 API를 하나의 MCP로 묶은 구조",
+    "creator": "author",
+    "source_url": "",
+    "download_url": "",
+    "license": {
+      "id": "Original work (generated from the author's own content)",
+      "url": "",
+      "commercial_use": true,
+      "modification_allowed": true,
+      "attribution_required": false,
+      "attribution_recommended": false,
+      "share_alike": false,
+      "caveats": []
+    },
+    "attribution_text": "",
+    "file": "../assets/images/kgt/kgt-architecture.png",
+    "inserted_into": "2026-08-27-korea-ground-truth-mcp.md",
+    "anchor": "after_block:11",
+    "checked_at": "2026-08-31T10:40:10.863Z"
+  },
+  {
+    "basis": "quotation",
+    "image_id": "screenshot:kr-groundtruth-mcp.vercel.app:2026-08-31",
+    "provider": "openverse",
+    "provider_id": "https://kr-groundtruth-mcp.vercel.app/",
+    "title": "Korea Ground-Truth — Korean Business, Legal & Real Estate MCP API",
+    "creator": "kr-groundtruth-mcp.vercel.app",
+    "source_url": "https://kr-groundtruth-mcp.vercel.app/",
+    "download_url": "https://kr-groundtruth-mcp.vercel.app/",
+    "license": {
+      "id": "Quotation (저작권법 §28 / fair use)",
+      "url": "https://www.law.go.kr/법령/저작권법/제28조",
+      "commercial_use": true,
+      "modification_allowed": false,
+      "attribution_required": true,
+      "attribution_recommended": true,
+      "share_alike": false,
+      "caveats": [
+        "NOT a license. The page content belongs to its owner; use is justified only as quotation for commentary, criticism, or news about that page.",
+        "Keep the capture limited to the part being discussed; do not use as decoration.",
+        "Source URL and capture date must be shown."
+      ]
+    },
+    "attribution_text": "출처: Korea Ground-Truth — Korean Business, Legal & Real Estate MCP API — kr-groundtruth-mcp.vercel.app (https://kr-groundtruth-mcp.vercel.app/), 2026-08-31 캡처. 인용 목적으로 사용.",
+    "file": "../assets/images/kgt/kgt-homepage.png",
+    "inserted_into": "2026-08-27-korea-ground-truth-mcp.md",
+    "anchor": "after_block:2",
+    "checked_at": "2026-08-31T10:40:24.944Z"
+  },
+  {
+    "file": "../assets/images/kgt/kgt-hero.jpg",
+    "basis": "license",
+    "image_id": "pexels:9858904",
+    "provider": "pexels",
+    "provider_id": "9858904",
+    "title": "Close-up of a legal document with a wooden stamp placed on top, highlighting verification.",
+    "creator": "Markus Spiske",
+    "creator_url": "https://www.pexels.com/@markusspiske",
+    "source_url": "https://www.pexels.com/photo/wooden-stamp-on-an-open-book-9858904/",
+    "download_url": "https://images.pexels.com/photos/9858904/pexels-photo-9858904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "license": {
+      "id": "Pexels License",
+      "url": "https://www.pexels.com/license/",
+      "commercial_use": true,
+      "modification_allowed": true,
+      "attribution_required": false,
+      "attribution_recommended": true,
+      "share_alike": false,
+      "caveats": [
+        "Do not sell unaltered copies or imply endorsement by depicted people/brands.",
+        "Identifiable people, logos, and trademarks may carry separate rights (no model/property release)."
+      ]
+    },
+    "attribution_text": "Image: Markus Spiske / Pexels (https://www.pexels.com/photo/wooden-stamp-on-an-open-book-9858904/) — Pexels License",
+    "inserted_into": "2026-08-27-korea-ground-truth-mcp.md",
+    "anchor": "after_block:0",
+    "checked_at": "2026-08-31T10:40:51.110Z"
+  }
+]

@@ -13,10 +13,18 @@ toc: true
 toc_sticky: true
 ---
 
+![공식 문서 위에 놓인 검증 도장](/assets/images/kgt/kgt-hero.jpg)
+
+<small>Image: Markus Spiske / Pexels (https://www.pexels.com/photo/wooden-stamp-on-an-open-book-9858904/) — Pexels License</small>
+
 에이전트에게 "이 업체랑 계약해도 돼?"라고 물으면, 답을 내려면 국세청 키 발급하고, DART 붙이고, 주소 API 붙이고… 기관 다섯 곳 API를 각각 연동해야 합니다. 인증키·XML·한글 필드명·법정동코드까지 전부 다릅니다. 그게 귀찮아서 하나로 묶었습니다.
 
 **Korea Ground-Truth (KGT)** — Official Korean data for AI agents. One API. One MCP.
 👉 <https://kr-groundtruth-mcp.vercel.app>
+
+![Korea Ground-Truth 홈페이지](/assets/images/kgt/kgt-homepage.png)
+
+<small>출처: Korea Ground-Truth — Korean Business, Legal & Real Estate MCP API — kr-groundtruth-mcp.vercel.app (https://kr-groundtruth-mcp.vercel.app/), 2026-08-31 캡처. 인용 목적으로 사용.</small>
 
 ## 에이전트가 실제로 하는 일
 
@@ -47,6 +55,10 @@ Claude Code에 한 줄 붙이고 이렇게 물으면:
 
 1 credit = 10원. 모든 응답의 `meta.source`에 출처 기관이 명시되고, 가공은 정규화(영문 snake_case + 원문 `_raw`)뿐입니다.
 
+![다섯 기관 API를 하나의 MCP로 묶은 구조](/assets/images/kgt/kgt-architecture.png)
+
+*기관별 API를 KGT가 정규화해 에이전트에 하나의 MCP로 제공*
+
 ## 고객을 에이전트로 가정하고 만든 부분
 
 이 프로젝트에서 제일 재미있었던 지점입니다. 사람이 들어와서 UI를 써보는 SaaS가 아니라, **개발자가 한 번 연결하면 에이전트가 계속 호출하는 인프라**라서 설계가 달라집니다.
@@ -57,6 +69,10 @@ Claude Code에 한 줄 붙이고 이렇게 물으면:
 - **업스트림 실패는 자동 환불**, 장부(ledger)는 append-only.
 - **툴 목록은 키 없이 조회 가능.** `llms.txt` / `openapi.json` / `pricing.json`을 제공해 에이전트가 문서를 직접 읽습니다.
 - 공식 MCP Registry(`io.github.ChloePark85/kr-groundtruth`)와 Smithery(`hapark85/kr-groundtruth`)에 등재.
+
+![에이전트가 사람에게 결제를 요청하는 루프](/assets/images/kgt/kgt-payment-loop.png)
+
+*잔액 부족 시 에이전트가 사람에게 충전을 요청하는 흐름*
 
 연결은 한 줄입니다:
 
