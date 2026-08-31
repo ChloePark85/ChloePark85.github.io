@@ -1,0 +1,173 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "박현아",
+  "alternateName": ["Hyunah Park", "Chloe Park"],
+  "url": "https://chloepark85.github.io",
+  "image": "https://github.com/ChloePark85.png",
+  "jobTitle": "AI Agent and Automation Systems Designer",
+  "description": "AI 에이전트와 자동화 시스템을 설계합니다. 1인 기업이 AI 팀과 협업하는 워크플로를 실험하고 기록합니다.",
+  "knowsAbout": ["AI Agents", "Automation", "n8n", "Claude API", "TTS", "Multi-agent Systems", "HCI", "Conversational AI"],
+  "alumniOf": [
+    {
+      "@type": "Organization",
+      "name": "Seoul National University",
+      "department": "HCI+D Lab"
+    },
+    {
+      "@type": "Organization",
+      "name": "KAIST",
+      "department": "Graduate School of Culture Technology"
+    },
+    {
+      "@type": "Organization",
+      "name": "Yonsei University",
+      "department": "Department of Communication"
+    }
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Seoul",
+    "addressCountry": "KR"
+  },
+  "email": "hapark85@gmail.com",
+  "sameAs": [
+    "https://github.com/ChloePark85",
+    "https://www.youtube.com/@chloe.systems",
+    "https://x.com/chloe_systems",
+    "https://www.linkedin.com/in/chloe-hyunah-park-96725a95/",
+    "https://instagram.com/chloe___park",
+    "https://scholar.google.com/citations?user=OUFAsNIAAAAJ&hl=ko"
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Chloe Park · AI 자동화 실험실",
+  "alternateName": "Chloe Park",
+  "url": "https://chloepark85.github.io",
+  "description": "AI 에이전트와 자동화 시스템을 설계합니다. 1인 기업이 AI 팀과 협업하는 워크플로를 실험하고 기록합니다.",
+  "inLanguage": "ko-KR",
+  "author": {
+    "@type": "Person",
+    "name": "박현아",
+    "alternateName": ["Hyunah Park", "Chloe Park"]
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "박현아",
+    "alternateName": ["Hyunah Park", "Chloe Park"]
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Books by Hyunah Park",
+  "itemListElement": [
+    {
+      "@type": "Book",
+      "position": 1,
+      "name": "나는 AI 에이전트 팀과 일한다",
+      "author": {
+        "@type": "Person",
+        "name": "박현아",
+        "alternateName": ["Hyunah Park", "Chloe Park"]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "제이펍"
+      },
+      "datePublished": "2026",
+      "inLanguage": "ko-KR",
+      "description": "n8n과 Claude·OpenAI로 고객 지원, 콘텐츠, 데이터, 마케팅 네 AI 팀을 직접 구축하는 실전 가이드.",
+      "url": "https://product.kyobobook.co.kr/detail/S000220511750",
+      "bookFormat": "https://schema.org/Paperback",
+      "about": ["AI Agents", "n8n", "Claude API", "OpenAI", "Automation"]
+    },
+    {
+      "@type": "Book",
+      "position": 2,
+      "name": "AI 에이전트와 자동화",
+      "author": {
+        "@type": "Person",
+        "name": "박현아",
+        "alternateName": ["Hyunah Park", "Chloe Park"]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "커뮤니케이션북스"
+      },
+      "datePublished": "2025",
+      "inLanguage": "ko-KR",
+      "description": "AI 에이전트 시대의 워크플로 설계와 자동화 개념을 처음부터 정리한 입문서.",
+      "url": "https://product.kyobobook.co.kr/detail/S000215723795",
+      "bookFormat": "https://schema.org/Paperback",
+      "about": ["AI Agents", "Automation", "Workflow Design"]
+    },
+    {
+      "@type": "Book",
+      "position": 3,
+      "name": "인공지능, 말을 걸다",
+      "author": {
+        "@type": "Person",
+        "name": "박현아",
+        "alternateName": ["Hyunah Park", "Chloe Park"]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "스리체어스"
+      },
+      "datePublished": "2020",
+      "inLanguage": "ko-KR",
+      "description": "대화형 AI와 인간의 관계를 인문학적 관점으로 풀어낸 에세이.",
+      "url": "https://product.kyobobook.co.kr/detail/S000001944968",
+      "bookFormat": "https://schema.org/Paperback",
+      "about": ["Conversational AI", "Human-AI Interaction", "Humanities"]
+    }
+  ]
+}
+</script>
+
+{% if page.layout == "single" and page.title %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ page.title | escape }}",
+  "author": {
+    "@type": "Person",
+    "name": "박현아",
+    "alternateName": ["Hyunah Park", "Chloe Park"]
+  },
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  {% if page.last_modified_at %}
+  "dateModified": "{{ page.last_modified_at | date_to_xmlschema }}",
+  {% else %}
+  "dateModified": "{{ page.date | date_to_xmlschema }}",
+  {% endif %}
+  "description": "{{ page.excerpt | strip_html | strip_newlines | truncate: 160 | escape }}",
+  "url": "{{ page.url | absolute_url }}",
+  "image": {% if page.header.image %}"{{ page.header.image | absolute_url }}"{% elsif page.header.teaser %}"{{ page.header.teaser | absolute_url }}"{% else %}"https://github.com/ChloePark85.png"{% endif %},
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ page.url | absolute_url }}"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "박현아",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://github.com/ChloePark85.png"
+    }
+  },
+  "inLanguage": "ko-KR"
+}
+</script>
+{% endif %}

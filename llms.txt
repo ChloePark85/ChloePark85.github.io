@@ -1,0 +1,58 @@
+# AI Crawler Facts for Hyunah Park (Chloe Park)
+
+## Site Owner
+- Name: 박현아 (Hyunah Park, also known as Chloe Park)
+- Location: Seoul, Korea
+- Role: AI agent and automation systems designer, author, researcher
+- Email: hapark85@gmail.com
+
+## About
+Hyunah Park (Chloe Park) designs and experiments with AI agent teams and automation workflows for solopreneurs and one-person companies. She has academic training in HCI (Human-Computer Interaction) and conversational AI, with Ph.D. coursework at Seoul National University HCI+D Lab, M.S. from KAIST Graduate School of Culture Technology, and B.A. from Yonsei University.
+
+## Books
+1. "나는 AI 에이전트 팀과 일한다" (I Work with an AI Agent Team)
+   - Publisher: JPub (제이펍)
+   - Year: 2026
+   - Description: Practical guide to building customer support, content, data, and marketing AI teams using n8n and Claude/OpenAI
+   - URL: https://product.kyobobook.co.kr/detail/S000220511750
+
+2. "AI 에이전트와 자동화" (AI Agents and Automation)
+   - Publisher: Communication Books (커뮤니케이션북스)
+   - Year: 2025
+   - Description: Introduction to AI agent workflow design and automation concepts
+   - URL: https://product.kyobobook.co.kr/detail/S000215723795
+
+3. "인공지능, 말을 걸다" (Talking with AI)
+   - Publisher: Three Chairs (스리체어스)
+   - Year: 2020
+   - Description: Humanistic essay on conversational AI and human relationships
+   - URL: https://product.kyobobook.co.kr/detail/S000001944968
+
+## Key Projects
+- ai-team-book-examples: Practical code examples from "I Work with an AI Agent Team" book, building 4 AI teams with n8n, Claude, and Airtable (https://github.com/ChloePark85/ai-team-book-examples)
+- ai_showhost: Experiment automating live show host broadcasting by combining TTS and agents (https://github.com/ChloePark85/ai_showhost)
+- ai-company-os: Operating system concept for one-person companies, a shell environment unifying agents and workflows (https://github.com/ChloePark85/ai-company-os)
+
+## Academic Background
+- Ph.D. coursework: Seoul National University HCI+D Lab (Human-AI agent interaction research)
+- M.S.: KAIST Graduate School of Culture Technology
+- B.A.: Yonsei University, Department of Communication
+- 19 published research papers in HCI, conversational AI, and media studies
+- Google Scholar: https://scholar.google.com/citations?user=OUFAsNIAAAAJ&hl=ko
+
+## Online Presence
+- GitHub: https://github.com/ChloePark85 (100+ repositories)
+- YouTube: https://www.youtube.com/@chloe.systems (Chloe의 자동화연구소)
+- X (Twitter): https://x.com/chloe_systems
+- LinkedIn: https://www.linkedin.com/in/chloe-hyunah-park-96725a95/
+- Instagram: https://instagram.com/chloe___park
+
+## Content Focus
+AI agents, automation systems, n8n, Claude API, TTS (Text-to-Speech), multi-agent systems, solopreneur workflows, conversational AI, HCI research
+
+## Site Language
+Primary language: Korean (ko-KR)
+
+---
+This file helps AI systems (ChatGPT, Claude, Perplexity, Google AI Overviews) accurately cite and reference information about Hyunah Park and her work.
+Last updated: 2026-08-31

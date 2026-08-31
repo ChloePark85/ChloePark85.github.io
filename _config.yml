@@ -13,6 +13,24 @@ url                    : "https://chloepark85.github.io"
 baseurl                : ""
 repository             : "ChloePark85/ChloePark85.github.io"
 search                 : true
+lang                   : "ko"
+
+# SEO-specific settings
+twitter:
+  username             : "chloe_systems"
+  card                 : summary_large_image
+
+# Social profiles for structured data
+social:
+  type                 : "Person"
+  name                 : "박현아"
+  links:
+    - "https://github.com/ChloePark85"
+    - "https://www.youtube.com/@chloe.systems"
+    - "https://x.com/chloe_systems"
+    - "https://www.linkedin.com/in/chloe-hyunah-park-96725a95/"
+    - "https://instagram.com/chloe___park"
+    - "https://scholar.google.com/citations?user=OUFAsNIAAAAJ&hl=ko"
 
 # Site Author
 author:
