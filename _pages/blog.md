@@ -3,6 +3,10 @@ title: "Blog"
 permalink: /blog/
 layout: splash
 author_profile: false
+excerpt: "AI 에이전트와 자동화 실험 기록. n8n·Claude·TTS·멀티 에이전트 시스템으로 1인 기업이 AI 팀과 협업하는 방법을 탐구합니다."
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
 ---
 
 <div class="chloe-home">

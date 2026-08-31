@@ -1,3 +1,51 @@
+<!-- Language and hreflang -->
+<html lang="ko">
+<link rel="alternate" hreflang="ko" href="{{ page.url | absolute_url }}" />
+
+<!-- Enhanced Open Graph tags -->
+<meta property="og:locale" content="ko_KR" />
+<meta property="og:site_name" content="Chloe Park · AI 자동화 실험실" />
+{% if page.title %}
+<meta property="og:title" content="{{ page.title }} · Chloe Park" />
+{% else %}
+<meta property="og:title" content="Chloe Park · AI 자동화 실험실" />
+{% endif %}
+{% if page.excerpt %}
+<meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}" />
+{% else %}
+<meta property="og:description" content="AI 에이전트와 자동화 시스템을 설계합니다. 1인 기업이 AI 팀과 협업하는 워크플로를 실험하고 기록합니다." />
+{% endif %}
+<meta property="og:url" content="{{ page.url | absolute_url }}" />
+<meta property="og:type" content="{% if page.layout == 'single' %}article{% else %}website{% endif %}" />
+<meta property="og:image" content="{% if page.header.image %}{{ page.header.image | absolute_url }}{% elsif page.header.teaser %}{{ page.header.teaser | absolute_url }}{% else %}https://github.com/ChloePark85.png{% endif %}" />
+{% if page.layout == "single" and page.date %}
+<meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}" />
+<meta property="article:author" content="박현아" />
+{% endif %}
+
+<!-- Twitter Card tags -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@chloe_systems" />
+<meta name="twitter:creator" content="@chloe_systems" />
+{% if page.title %}
+<meta name="twitter:title" content="{{ page.title }} · Chloe Park" />
+{% else %}
+<meta name="twitter:title" content="Chloe Park · AI 자동화 실험실" />
+{% endif %}
+{% if page.excerpt %}
+<meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}" />
+{% else %}
+<meta name="twitter:description" content="AI 에이전트와 자동화 시스템을 설계합니다. 1인 기업이 AI 팀과 협업하는 워크플로를 실험하고 기록합니다." />
+{% endif %}
+<meta name="twitter:image" content="{% if page.header.image %}{{ page.header.image | absolute_url }}{% elsif page.header.teaser %}{{ page.header.teaser | absolute_url }}{% else %}https://github.com/ChloePark85.png{% endif %}" />
+
+<!-- Canonical URL -->
+<link rel="canonical" href="{{ page.url | absolute_url }}" />
+
+<!-- Structured Data (JSON-LD) -->
+{% include structured-data.html %}
+
+<!-- Korean font -->
 <link
   rel="stylesheet"
   as="style"
