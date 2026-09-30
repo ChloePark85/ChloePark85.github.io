@@ -60,7 +60,7 @@ excerpt: "박현아(Chloe Park)에게 연락하기. 협업·강연·인터뷰 �
         <div class="chloe-contact-card__icon"><i class="fab fa-youtube"></i></div>
         <div class="chloe-contact-card__label">YouTube</div>
         <div class="chloe-contact-card__value">@chloe.systems</div>
-        <div class="chloe-contact-card__hint">Chloe의 자동화연구소</div>
+        <div class="chloe-contact-card__hint">Chloe Park</div>
       </a>
 
       <a class="chloe-contact-card" href="https://x.com/chloe_systems" target="_blank" rel="noopener">

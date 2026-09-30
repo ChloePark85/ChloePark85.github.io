@@ -135,7 +135,7 @@ excerpt: "박현아(Chloe Park)는 창업자이자 문화기술·HCI 연구자, 
       </a>
       <a class="chloe-project" href="https://www.youtube.com/@chloe.systems" target="_blank" rel="noopener">
         <div class="chloe-project__icon">🎥</div>
-        <h3 class="chloe-project__title">Chloe의 자동화연구소</h3>
+        <h3 class="chloe-project__title">Chloe Park</h3>
         <p class="chloe-project__desc">유튜브 — 같은 주제를 영상으로 풀어봅니다.</p>
         <div class="chloe-project__tags"><span>YouTube</span></div>
       </a>
