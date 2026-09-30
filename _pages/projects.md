@@ -1,23 +1,23 @@
 ---
-title: "Projects"
+title: "Build"
 permalink: /projects/
 layout: splash
 author_profile: false
-excerpt: "n8n·Claude·TypeScript·Python으로 만든 AI 에이전트와 자동화 워크플로 실험 프로젝트. 박현아(Chloe Park)의 100+ GitHub 레포지토리 대표작."
+excerpt: "AI 에이전트·제품·서비스를 만들고 실험합니다. 인간–AI 협업을 구현하는 실제 프로젝트와 실습 코드를 소개합니다."
 ---
 
 <div class="chloe-home">
 
   <section class="chloe-hero chloe-hero--compact chloe-hero--center">
     <div class="chloe-hero__inner chloe-hero__inner--single">
-      <span class="chloe-eyebrow">Projects</span>
+      <span class="chloe-eyebrow">Build</span>
       <h1 class="chloe-hero__title">
-        <span class="chloe-accent">100+ 실험</span>의<br/>
-        대표작들
+        AI와 함께 <span class="chloe-accent">만드는</span><br/>
+        회사와 제품
       </h1>
       <p class="chloe-hero__lead">
-        n8n·Claude·TypeScript·Python으로 만든 워크플로와 에이전트 실험들.<br/>
-        전체 코드는 <a href="https://github.com/ChloePark85" target="_blank" rel="noopener">GitHub 프로필</a>에서 볼 수 있습니다.
+        AI 에이전트·제품·서비스를 만들고 실험합니다. 사람이 개입하고 판단하는 접점을 설계합니다.<br/>
+        공개 코드는 <a href="https://github.com/ChloePark85" target="_blank" rel="noopener">GitHub 프로필</a>에서 볼 수 있습니다.
       </p>
     </div>
   </section>
@@ -62,14 +62,28 @@ excerpt: "n8n·Claude·TypeScript·Python으로 만든 AI 에이전트와 자동
     </header>
 
     <div class="chloe-project-grid">
+      <a class="chloe-project" href="https://apps.apple.com/kr/app/solohood/id6808542004" target="_blank" rel="noopener">
+        <div class="chloe-project__icon" aria-hidden="true">☕</div>
+        <h3 class="chloe-project__title">SOLOHOOD</h3>
+        <p class="chloe-project__desc">혼자 일하는 사람들이 근처에서 커피·코워킹·대화를 함께할 사람을 찾는 iOS 앱.</p>
+        <div class="chloe-project__tags"><span>iOS</span><span>Product</span></div>
+      </a>
+
       <a class="chloe-project" href="https://github.com/ChloePark85/ai_showhost" target="_blank" rel="noopener">
         <div class="chloe-project__icon">🎙️</div>
         <h3 class="chloe-project__title">ai_showhost</h3>
-        <p class="chloe-project__desc">TTS와 에이전트를 결합해 라이브 쇼호스트 방송을 자동화하는 실험.</p>
+        <p class="chloe-project__desc">음성 AI의 대화형 인터페이스를 실험하는 ElevenLabs 기반 데모.</p>
         <div class="chloe-project__tags">
-          <span>TypeScript</span><span>TTS</span><span>Live</span>
+          <span>TypeScript</span><span>TTS</span><span>Voice</span>
         </div>
       </a>
+
+      <article class="chloe-project chloe-project--teaser">
+        <div class="chloe-project__icon" aria-hidden="true">🏃</div>
+        <h3 class="chloe-project__title">Errand</h3>
+        <p class="chloe-project__desc">AI 에이전트가 물리 세계의 일을 사람에게 의뢰하는 플랫폼을 실험합니다. 의뢰와 실행, 검증 사이의 역할을 설계합니다.</p>
+        <div class="chloe-project__tags"><span>AI × humans</span><span>Private beta</span></div>
+      </article>
 
       <a class="chloe-project" href="https://github.com/ChloePark85/errand-ai" target="_blank" rel="noopener">
         <div class="chloe-project__icon">🏃</div>
@@ -83,7 +97,7 @@ excerpt: "n8n·Claude·TypeScript·Python으로 만든 AI 에이전트와 자동
       <a class="chloe-project" href="https://github.com/ChloePark85/ai-company-os" target="_blank" rel="noopener">
         <div class="chloe-project__icon">🧠</div>
         <h3 class="chloe-project__title">ai-company-os</h3>
-        <p class="chloe-project__desc">1인 기업을 위한 운영체제 컨셉. 에이전트와 워크플로를 하나로 묶는 셸 환경.</p>
+        <p class="chloe-project__desc">1인 기업과 AI 팀의 운영 구조를 실험합니다. 사람의 승인과 에이전트 워크플로를 연결합니다.</p>
         <div class="chloe-project__tags">
           <span>OS</span><span>Agents</span><span>Concept</span>
         </div>
@@ -95,7 +109,7 @@ excerpt: "n8n·Claude·TypeScript·Python으로 만든 AI 에이전트와 자동
     <div class="chloe-cta">
       <div>
         <span class="chloe-eyebrow">More on GitHub</span>
-        <h2 class="chloe-section__title">100개가 넘는 실험 레포</h2>
+        <h2 class="chloe-section__title">공개 실험과 코드</h2>
         <p class="chloe-section__sub">정리해서 하나씩 블로그 글로 풀어갈 예정.</p>
       </div>
       <div class="chloe-channels">

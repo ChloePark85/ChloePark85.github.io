@@ -35,6 +35,13 @@ excerpt: "박현아(Chloe Park)에게 연락하기. 협업·강연·인터뷰 �
     </header>
 
     <div class="chloe-contact-grid">
+      <a class="chloe-contact-card" href="https://substack.com/@chloeparkai" target="_blank" rel="noopener">
+        <div class="chloe-contact-card__icon"><i class="fas fa-pen-nib" aria-hidden="true"></i></div>
+        <div class="chloe-contact-card__label">Substack</div>
+        <div class="chloe-contact-card__value">@chloeparkai</div>
+        <div class="chloe-contact-card__hint">프로필에서 글 읽고 팔로우하기</div>
+      </a>
+
       <a class="chloe-contact-card" href="mailto:hapark85@gmail.com">
         <div class="chloe-contact-card__icon"><i class="fas fa-envelope"></i></div>
         <div class="chloe-contact-card__label">Email</div>

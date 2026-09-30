@@ -5,13 +5,11 @@
   url: "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=OUFAsNIAAAAJ&citation_for_view=OUFAsNIAAAAJ:KlAtU1dfN6UC"
 
 - year: 2019
-  title: "Expectation and Expectation Gap towards Intelligent Properties of AI-based Conversational Agent"
-  authors: "H. Park, M. Y. Tae, Y. Huh, J. Lee"
-  venue: "Journal of the HCI Society of Korea, 14(1), 15–22"
-  url: "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=OUFAsNIAAAAJ&citation_for_view=OUFAsNIAAAAJ:3fE2CSJIrl8C"
-
-- year: 2019
   title: "인공지능 대화형 에이전트의 지능적 속성에 대한 기대와 기대 격차"
+  title_en: "Expectation and Expectation Gap towards Intelligent Properties of AI-based Conversational Agent"
+  doi: "10.17210/jhsk.2019.02.14.1.15"
+  alternate_url: "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=OUFAsNIAAAAJ&citation_for_view=OUFAsNIAAAAJ:3fE2CSJIrl8C"
+  source_url: "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002440205"
   authors: "박현아, 태문영, 허영진, 이준환"
   venue: "한국HCI학회 논문지, 14(1), 15–22"
   url: "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=OUFAsNIAAAAJ&citation_for_view=OUFAsNIAAAAJ:_FxGoFyzp5QC"

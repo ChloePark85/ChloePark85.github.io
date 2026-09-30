@@ -1,0 +1,23 @@
+<ol class="chloe-publications">
+  {% for publication in site.data.publications %}
+  <li class="chloe-publication">
+    <div class="chloe-publication__year">{{ publication.year }}</div>
+    <div class="chloe-publication__body">
+      <a class="chloe-publication__title" href="{{ publication.url }}" target="_blank" rel="noopener">
+        {{ publication.title }} <span aria-hidden="true">↗</span>
+      </a>
+      {% if publication.title_en %}
+      <div class="chloe-publication__authors" lang="en">{{ publication.title_en }}</div>
+      {% endif %}
+      <div class="chloe-publication__authors">{{ publication.authors }}</div>
+      <div class="chloe-publication__venue">{{ publication.venue }}</div>
+      {% if publication.alternate_url %}
+      <div class="chloe-publication__authors"><a href="{{ publication.alternate_url }}" target="_blank" rel="noopener">Google Scholar 영문 표제 기록 ↗</a></div>
+      {% endif %}
+      {% if publication.source_url %}
+      <div class="chloe-publication__authors"><a href="{{ publication.source_url }}" target="_blank" rel="noopener">서지·초록 확인 (KCI) ↗</a></div>
+      {% endif %}
+    </div>
+  </li>
+  {% endfor %}
+</ol>

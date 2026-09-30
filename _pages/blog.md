@@ -1,25 +1,27 @@
 ---
-title: "Blog"
+title: "Write"
 permalink: /blog/
 layout: splash
 author_profile: false
-excerpt: "AI 에이전트와 자동화 실험 기록. n8n·Claude·TTS·멀티 에이전트 시스템으로 1인 기업이 AI 팀과 협업하는 방법을 탐구합니다."
+excerpt: "기술과 문화, 인간–AI 협업에 관한 글. 실제 제품 실험의 근거와 결과, 한계를 기록합니다."
 ---
 
 <div class="chloe-home">
 
   <section class="chloe-hero chloe-hero--compact chloe-hero--center">
     <div class="chloe-hero__inner chloe-hero__inner--single">
-      <span class="chloe-eyebrow">Blog</span>
+      <span class="chloe-eyebrow">Write</span>
       <h1 class="chloe-hero__title">
-        AI 자동화 <span class="chloe-accent">실험 노트</span>
+        기술과 문화, <span class="chloe-accent">실험의 기록</span>
       </h1>
       <p class="chloe-hero__lead">
-        n8n · Claude · TTS · 멀티 에이전트 실험의 결과와 배운 점을 정리합니다.<br/>
-        1인 기업이 AI 팀과 협업하는 방법에 관한 기록.
+        인간–AI 협업에 관한 관점과 실제 제품 실험의 근거·결과·한계를 기록합니다.<br/>
+        <a href="/about/#writing">저서와 작가 소개 →</a>
       </p>
     </div>
   </section>
+
+  {% include start-here.html %}
 
   <section class="chloe-section">
     {% if site.posts.size > 0 %}

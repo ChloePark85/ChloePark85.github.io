@@ -3,7 +3,7 @@ title: "About"
 permalink: /about/
 layout: splash
 author_profile: false
-excerpt: "박현아(Chloe Park)는 AI 에이전트와 자동화 시스템 설계자이자 저자. 서울대 HCI+D 연구실 박사 과정 수료, KAIST 문화기술대학원 석사. 3권의 AI 관련 저서와 19편의 HCI 연구 논문."
+excerpt: "박현아(Chloe Park)는 창업자이자 문화기술·HCI 연구자, 작가입니다. 서울대학교 HCI+D 연구실 박사과정 수료, KAIST 문화기술대학원 석사. 이시대라는 이름으로 SF 미스터리를 씁니다."
 ---
 
 <div class="chloe-home">
@@ -11,19 +11,20 @@ excerpt: "박현아(Chloe Park)는 AI 에이전트와 자동화 시스템 설계
   <section class="chloe-hero chloe-hero--compact">
     <div class="chloe-hero__inner">
       <div class="chloe-hero__intro">
-        <span class="chloe-eyebrow">About</span>
+        <span class="chloe-eyebrow">Build · Research · Write</span>
         <h1 class="chloe-hero__title">
           <span class="chloe-accent">박현아</span>,<br/>
-          AI 팀을 설계합니다.
+          만들고, 연구하고, 씁니다.
         </h1>
         <p class="chloe-hero__lead">
-          오디오 콘텐츠 스타트업을 창업·운영하며 TTS와 멀티 에이전트 기반
-          콘텐츠 자동화를 직접 설계했습니다. 지금은 n8n과 Claude API로
-          <strong>1인 기업이 AI 팀과 협업하는 워크플로</strong>를 실험하고 기록합니다.
+          문화기술과 HCI를 공부하고, 오디오 콘텐츠 스타트업을 창업·운영하며
+          TTS와 멀티 에이전트 기반 자동화를 설계했습니다. 지금은 AI 에이전트·제품·서비스를 만들고 실험하며
+          <strong>사람과 AI가 판단과 일을 나누는 구조</strong>를 연구합니다.
+          기술과 문화에 관한 글을 쓰고, 이시대라는 이름으로 SF 미스터리를 씁니다.
         </p>
         <div class="chloe-hero__actions">
-          <a class="chloe-btn chloe-btn--primary" href="/projects/">Projects <span aria-hidden="true">→</span></a>
-          <a class="chloe-btn chloe-btn--ghost" href="/contact/">Contact</a>
+          <a class="chloe-btn chloe-btn--primary" href="/projects/">Build <span aria-hidden="true">→</span></a>
+          <a class="chloe-btn chloe-btn--ghost" href="/research/">Research</a>
         </div>
       </div>
 
@@ -45,7 +46,7 @@ excerpt: "박현아(Chloe Park)는 AI 에이전트와 자동화 시스템 설계
 
     <div class="chloe-facts">
       <div class="chloe-fact">
-        <div class="chloe-fact__year">Ph.D. 수료</div>
+        <div class="chloe-fact__year">박사과정 수료 · PhD candidate</div>
         <div class="chloe-fact__title">서울대학교 HCI+D 연구실</div>
         <div class="chloe-fact__desc">인간-AI 에이전트 상호작용 연구</div>
       </div>
@@ -65,34 +66,21 @@ excerpt: "박현아(Chloe Park)는 AI 에이전트와 자동화 시스템 설계
   <section class="chloe-section">
     <header class="chloe-section__head">
       <span class="chloe-eyebrow">Publications</span>
-      <h2 class="chloe-section__title">논문 이력</h2>
+      <h2 class="chloe-section__title">연구 이력</h2>
       <p class="chloe-section__sub">
-        HCI · 대화형 AI · 미디어 연구 논문 19편 ·
+        HCI · 대화형 AI · 미디어 연구 · <a href="/research/">연구 해설과 주제 보기 →</a><br/>
         <a href="https://scholar.google.com/citations?user=OUFAsNIAAAAJ&hl=ko" target="_blank" rel="noopener">Google Scholar에서 보기 →</a>
       </p>
     </header>
 
-    <ol class="chloe-publications">
-      {% for publication in site.data.publications %}
-      <li class="chloe-publication">
-        <div class="chloe-publication__year">{{ publication.year }}</div>
-        <div class="chloe-publication__body">
-          <a class="chloe-publication__title" href="{{ publication.url }}" target="_blank" rel="noopener">
-            {{ publication.title }} <span aria-hidden="true">↗</span>
-          </a>
-          <div class="chloe-publication__authors">{{ publication.authors }}</div>
-          <div class="chloe-publication__venue">{{ publication.venue }}</div>
-        </div>
-      </li>
-      {% endfor %}
-    </ol>
+    {% include publications-list.html %}
   </section>
 
-  <section class="chloe-section">
+  <section class="chloe-section" id="writing">
     <header class="chloe-section__head">
-      <span class="chloe-eyebrow">Books</span>
+      <span class="chloe-eyebrow">Write</span>
       <h2 class="chloe-section__title">저서</h2>
-      <p class="chloe-section__sub">6년간의 대화형 AI · 에이전트 연구를 담은 세 권.</p>
+      <p class="chloe-section__sub">AI 실무와 기술·문화에 관한 글을 쓰며, 소설은 이시대라는 이름으로 SF 미스터리를 씁니다. 아래는 AI에 관한 저서입니다.</p>
     </header>
 
     <div class="chloe-book-grid">
@@ -142,7 +130,7 @@ excerpt: "박현아(Chloe Park)는 AI 에이전트와 자동화 시스템 설계
       <a class="chloe-project" href="/blog/">
         <div class="chloe-project__icon">✍️</div>
         <h3 class="chloe-project__title">This Blog</h3>
-        <p class="chloe-project__desc">AI 자동화 실험과 솔로프러너 워크플로의 기록.</p>
+        <p class="chloe-project__desc">인간–AI 협업, 제품 실험, 기술과 문화에 관한 기록.</p>
         <div class="chloe-project__tags"><span>Writing</span></div>
       </a>
       <a class="chloe-project" href="https://www.youtube.com/@chloe.systems" target="_blank" rel="noopener">

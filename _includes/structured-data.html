@@ -3,11 +3,11 @@
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "박현아",
-  "alternateName": ["Hyunah Park", "Chloe Park"],
+  "alternateName": ["Hyunah Park", "Chloe Park", "이시대"],
   "url": "https://chloepark85.github.io",
   "image": "https://github.com/ChloePark85.png",
-  "jobTitle": "AI Agent and Automation Systems Designer",
-  "description": "AI 에이전트와 자동화 시스템을 설계합니다. 1인 기업이 AI 팀과 협업하는 워크플로를 실험하고 기록합니다.",
+  "jobTitle": "Founder, HCI Researcher, and Writer",
+  "description": "AI 에이전트와 사람이 함께 일하는 구조를 만들고 연구합니다. 창업과 실험, HCI 연구, 기술·문화에 관한 글과 소설을 기록합니다.",
   "knowsAbout": ["AI Agents", "Automation", "n8n", "Claude API", "TTS", "Multi-agent Systems", "HCI", "Conversational AI"],
   "alumniOf": [
     {
@@ -33,6 +33,7 @@
   },
   "email": "hapark85@gmail.com",
   "sameAs": [
+    "https://substack.com/@chloeparkai",
     "https://github.com/ChloePark85",
     "https://www.youtube.com/@chloe.systems",
     "https://x.com/chloe_systems",
@@ -47,20 +48,20 @@
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "Chloe Park · AI 자동화 실험실",
+  "name": {{ site.title | jsonify }},
   "alternateName": "Chloe Park",
   "url": "https://chloepark85.github.io",
-  "description": "AI 에이전트와 자동화 시스템을 설계합니다. 1인 기업이 AI 팀과 협업하는 워크플로를 실험하고 기록합니다.",
+  "description": "AI 에이전트와 사람이 함께 일하는 구조를 만들고 연구합니다. 창업과 실험, HCI 연구, 기술·문화에 관한 글과 소설을 기록합니다.",
   "inLanguage": "ko-KR",
   "author": {
     "@type": "Person",
     "name": "박현아",
-    "alternateName": ["Hyunah Park", "Chloe Park"]
+    "alternateName": ["Hyunah Park", "Chloe Park", "이시대"]
   },
   "publisher": {
     "@type": "Person",
     "name": "박현아",
-    "alternateName": ["Hyunah Park", "Chloe Park"]
+    "alternateName": ["Hyunah Park", "Chloe Park", "이시대"]
   }
 }
 </script>
@@ -78,7 +79,7 @@
       "author": {
         "@type": "Person",
         "name": "박현아",
-        "alternateName": ["Hyunah Park", "Chloe Park"]
+        "alternateName": ["Hyunah Park", "Chloe Park", "이시대"]
       },
       "publisher": {
         "@type": "Organization",
@@ -98,7 +99,7 @@
       "author": {
         "@type": "Person",
         "name": "박현아",
-        "alternateName": ["Hyunah Park", "Chloe Park"]
+        "alternateName": ["Hyunah Park", "Chloe Park", "이시대"]
       },
       "publisher": {
         "@type": "Organization",
@@ -118,7 +119,7 @@
       "author": {
         "@type": "Person",
         "name": "박현아",
-        "alternateName": ["Hyunah Park", "Chloe Park"]
+        "alternateName": ["Hyunah Park", "Chloe Park", "이시대"]
       },
       "publisher": {
         "@type": "Organization",
@@ -135,7 +136,7 @@
 }
 </script>
 
-{% if page.layout == "single" and page.title %}
+{% if page.layout == "single" and page.date %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -144,7 +145,7 @@
   "author": {
     "@type": "Person",
     "name": "박현아",
-    "alternateName": ["Hyunah Park", "Chloe Park"]
+    "alternateName": ["Hyunah Park", "Chloe Park", "이시대"]
   },
   "datePublished": "{{ page.date | date_to_xmlschema }}",
   {% if page.last_modified_at %}

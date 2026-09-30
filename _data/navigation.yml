@@ -3,9 +3,11 @@ main:
     url: /
   - title: "About"
     url: /about/
-  - title: "Projects"
+  - title: "Build"
     url: /projects/
-  - title: "Blog"
+  - title: "Research"
+    url: /research/
+  - title: "Write"
     url: /blog/
   - title: "Contact"
     url: /contact/

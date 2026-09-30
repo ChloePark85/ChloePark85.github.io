@@ -1,46 +1,5 @@
-<!-- Language and hreflang -->
-<html lang="ko">
+<!-- Alternate language URL; the theme supplies canonical and social metadata. -->
 <link rel="alternate" hreflang="ko" href="{{ page.url | absolute_url }}" />
-
-<!-- Enhanced Open Graph tags -->
-<meta property="og:locale" content="ko_KR" />
-<meta property="og:site_name" content="Chloe Park · AI 자동화 실험실" />
-{% if page.title %}
-<meta property="og:title" content="{{ page.title }} · Chloe Park" />
-{% else %}
-<meta property="og:title" content="Chloe Park · AI 자동화 실험실" />
-{% endif %}
-{% if page.excerpt %}
-<meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}" />
-{% else %}
-<meta property="og:description" content="AI 에이전트와 자동화 시스템을 설계합니다. 1인 기업이 AI 팀과 협업하는 워크플로를 실험하고 기록합니다." />
-{% endif %}
-<meta property="og:url" content="{{ page.url | absolute_url }}" />
-<meta property="og:type" content="{% if page.layout == 'single' %}article{% else %}website{% endif %}" />
-<meta property="og:image" content="{% if page.header.image %}{{ page.header.image | absolute_url }}{% elsif page.header.teaser %}{{ page.header.teaser | absolute_url }}{% else %}https://github.com/ChloePark85.png{% endif %}" />
-{% if page.layout == "single" and page.date %}
-<meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}" />
-<meta property="article:author" content="박현아" />
-{% endif %}
-
-<!-- Twitter Card tags -->
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@chloe_systems" />
-<meta name="twitter:creator" content="@chloe_systems" />
-{% if page.title %}
-<meta name="twitter:title" content="{{ page.title }} · Chloe Park" />
-{% else %}
-<meta name="twitter:title" content="Chloe Park · AI 자동화 실험실" />
-{% endif %}
-{% if page.excerpt %}
-<meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}" />
-{% else %}
-<meta name="twitter:description" content="AI 에이전트와 자동화 시스템을 설계합니다. 1인 기업이 AI 팀과 협업하는 워크플로를 실험하고 기록합니다." />
-{% endif %}
-<meta name="twitter:image" content="{% if page.header.image %}{{ page.header.image | absolute_url }}{% elsif page.header.teaser %}{{ page.header.teaser | absolute_url }}{% else %}https://github.com/ChloePark85.png{% endif %}" />
-
-<!-- Canonical URL -->
-<link rel="canonical" href="{{ page.url | absolute_url }}" />
 
 <!-- Structured Data (JSON-LD) -->
 {% include structured-data.html %}
@@ -1168,5 +1127,35 @@
   .layout--single .page__footer-follow,
   .layout--single .page__share {
     border-color: var(--chloe-line);
+  }
+  .chloe-home p { word-break: keep-all; overflow-wrap: anywhere; }
+  .chloe-reading__label {
+    display: block;
+    margin-bottom: 16px;
+    color: var(--chloe-accent-ink);
+    font-size: 0.76rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+  }
+  .chloe-reading-grid .chloe-project {
+    display: flex;
+    flex-direction: column;
+  }
+  .chloe-reading-grid .chloe-post__more { margin-top: auto; }
+  .chloe-research-note {
+    max-width: 920px;
+    margin: 0 auto;
+    color: var(--chloe-ink-soft);
+  }
+  .chloe-research-note h3 { color: var(--chloe-ink); }
+  .chloe-research-note p { line-height: 1.85; }
+  .chloe-home [id] { scroll-margin-top: 90px; }
+  .chloe-home a:focus-visible {
+    outline: 3px solid var(--chloe-accent);
+    outline-offset: 4px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .chloe-hero__glow, .chloe-hero__chip { animation: none; }
+    .chloe-home * { transition: none; }
   }
 </style>
