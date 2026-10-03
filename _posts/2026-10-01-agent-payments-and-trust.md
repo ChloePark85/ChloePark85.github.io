@@ -16,6 +16,13 @@ toc_sticky: true
 
 2026년 10월 1일 기준
 
+<figure>
+  <a href="/assets/images/agent-payments/agent-payments-hero.svg" aria-label="결제 기록과 위임 기록 이미지 크게 보기">
+    <img src="/assets/images/agent-payments/agent-payments-hero.svg" alt="금액과 판매자를 담은 결제 영수증과 목적, 한도, 조건을 담은 위임서가 나란히 놓여 있다. 돈이 정확히 전달됐는지와 사용자의 뜻을 지켰는지는 각각 확인해야 한다." width="800" height="520" fetchpriority="high" decoding="async" style="width:100%;height:auto;">
+  </a>
+  <figcaption>결제의 정확성과 위임의 정확성은 따로 확인해야 한다. 원본 일러스트.</figcaption>
+</figure>
+
 에이전트 커머스와 블록체인을 다루는 행사에 다녀왔다. 현장에서는 한국 시장이 아직 초기 단계이고, 규제와 사업자 요건 때문에 당장 서비스를 만들기 쉽지 않지만 인프라는 미리 준비해야 한다는 이야기가 나왔다.
 
 이야기를 들으며 한 가지는 구분해서 봐야겠다고 생각했다. 에이전트가 대신 결제하는 것과 블록체인으로 결제하는 것은 서로 다른 문제다. 두 기술이 잘 맞는 영역은 있겠지만, 에이전트 경제가 커진다고 모든 결제가 블록체인으로 옮겨가는 것은 아니다.
@@ -77,6 +84,13 @@ HCI 관점에서 에이전트 결제를 보면, 사용자가 무엇을 이해하
 마지막으로 사고 이후의 흐름이 있어야 한다. 사용자는 에이전트를 멈추고 남은 권한을 회수할 수 있어야 한다. 어떤 요청과 승인으로 이 거래가 일어났는지 확인하고, 누구에게 취소나 환불을 요청할지 알아야 한다. 나중에 로그 파일을 찾아보라는 방식으로는 일상적인 구매 경험을 만들기 어렵다.
 
 예를 들어 자료 조사에 5천 원을 허용했다면, 에이전트가 산 자료와 남은 예산을 한눈에 볼 수 있어야 한다. 같은 요청이 실패하면서 반복 결제될 때는 멈추고 알려줘야 한다. 비용을 쓴 뒤에도 근거가 부족했다면, 그 사실 역시 결과물과 함께 전달해야 한다. 결제 영수증과 작업의 성과를 사용자가 연결해 이해할 수 있어야 한다.
+
+<figure>
+  <a href="/assets/images/agent-payments/delegation-payment-recovery.svg" aria-label="에이전트 위임과 결제 및 복구 요청 흐름도 크게 보기">
+    <img src="/assets/images/agent-payments/delegation-payment-recovery.svg" alt="목적과 조건을 합의하고 실행 시스템이 거래와 작업 전체의 한도를 확인한다. 조건이 그대로면 실행하고, 변경되면 멈춰 재동의와 한도 재확인을 거친다. 실행과 결과 기록 뒤 문제가 생기면 에이전트 중지와 권한 회수, 취소·환불 요청, 처리 결과 확인과 미해결 문의로 이어진다. 환불 가능 여부와 완료는 별도 확인이 필요하다." width="640" height="1440" loading="lazy" decoding="async" style="display:block;width:100%;max-width:560px;height:auto;margin:0 auto;">
+  </a>
+  <figcaption>조건 변경 시 재확인하고, 문제 발생 뒤에는 취소·환불 요청과 처리 결과를 확인한다. 원본 다이어그램.</figcaption>
+</figure>
 
 ## 5 에이전트의 신원보다 더 많은 것이 필요하다
 

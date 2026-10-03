@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">결제 기록과 위임 기록</title>
+  <desc id="desc">영수증은 금액과 판매자를, 위임서는 목적과 한도와 조건을 기록한다. 돈이 정확히 전달됐는지와 사용자의 뜻을 지켰는지는 각각 확인해야 한다.</desc>
+  <style>
+    text { font-family: 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif; fill: #173047; }
+    .title { font-size: 40px; font-weight: 700; }
+    .label { font-size: 34px; font-weight: 700; }
+    .detail { font-size: 28px; font-weight: 500; }
+    .small { font-size: 25px; }
+  </style>
+  <rect width="800" height="520" rx="28" fill="#f5f3ee"/>
+  <path d="M0 428 Q260 375 800 445 V520 H0Z" fill="#ebe8df"/>
+  <text class="title" x="400" y="72" text-anchor="middle">결제 기록과 위임 기록</text>
+  <text class="small" x="400" y="115" text-anchor="middle" fill="#496071">돈의 이동과 의도의 실행을 함께 살펴보기</text>
+
+  <rect x="42" y="156" width="340" height="304" rx="24" fill="#d9ded6"/>
+  <rect x="38" y="150" width="340" height="304" rx="24" fill="#e2f0e8" stroke="#adcbb9" stroke-width="2"/>
+  <rect x="423" y="156" width="340" height="304" rx="24" fill="#dfdbe5"/>
+  <rect x="419" y="150" width="340" height="304" rx="24" fill="#ebe6f5" stroke="#c5b8de" stroke-width="2"/>
+
+  <g transform="translate(157 176)">
+    <path d="M8 0 H89 V107 L77 99 L66 107 L54 99 L42 107 L30 99 L18 107 L8 99Z" fill="#fff" stroke="#28755b" stroke-width="3"/>
+    <path d="M25 28 H72 M25 44 H72 M25 60 H48" fill="none" stroke="#b1c6bc" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="89" cy="79" r="25" fill="#28755b"/>
+    <path d="M76 79 L85 88 L102 69" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(538 176)">
+    <rect x="8" y="0" width="89" height="107" rx="10" fill="#fff" stroke="#705298" stroke-width="3"/>
+    <rect x="28" y="-5" width="49" height="15" rx="6" fill="#705298"/>
+    <circle cx="31" cy="35" r="5" fill="#705298"/>
+    <circle cx="31" cy="56" r="5" fill="#705298"/>
+    <circle cx="31" cy="77" r="5" fill="#705298"/>
+    <path d="M45 35 H78 M45 56 H78 M45 77 H66" fill="none" stroke="#b8a8cc" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="98" cy="86" r="24" fill="#705298"/>
+    <path d="M87 85 L96 93 L110 76" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text class="label" x="208" y="329" text-anchor="middle">금액 · 판매자</text>
+  <text class="label" x="589" y="329" text-anchor="middle">목적 · 한도 · 조건</text>
+  <text class="detail" x="208" y="380" text-anchor="middle">돈이 정확히 갔는가?</text>
+  <text class="detail" x="589" y="380" text-anchor="middle">사용자의 뜻을 지켰는가?</text>
+  <path d="M111 411 H304" stroke="#a4c5b2" stroke-width="2"/>
+  <path d="M492 411 H685" stroke="#c4b5d8" stroke-width="2"/>
+  <text class="small" x="400" y="493" text-anchor="middle">결제 성공 기록만으로는 위임의 결과를 알 수 없다</text>
+</svg>
