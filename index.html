@@ -19,7 +19,8 @@ excerpt: "AI 에이전트와 사람이 함께 일하는 구조를 만들고 연�
           창업과 제품 실험, HCI 연구, 기술·문화에 관한 글과 소설을 이어갑니다.
         </p>
         <div class="chloe-hero__actions">
-          <a class="chloe-btn chloe-btn--primary" href="#start-here">세 편부터 읽기</a>
+          <a class="chloe-btn chloe-btn--primary" href="#latest-posts">최근 글 읽기</a>
+          <a class="chloe-btn chloe-btn--ghost" href="#start-here">세 편부터 읽기</a>
           <a class="chloe-btn chloe-btn--ghost" href="/about/">소개 <span aria-hidden="true">→</span></a>
         </div>
         <ul class="chloe-hero__meta">
@@ -40,6 +41,32 @@ excerpt: "AI 에이전트와 사람이 함께 일하는 구조를 만들고 연�
       </div>
     </div>
   </section>
+
+  {% if site.posts.size > 0 %}
+  <section class="chloe-section chloe-section--muted" id="latest-posts" aria-labelledby="latest-posts-title">
+    <header class="chloe-section__head">
+      <span class="chloe-eyebrow">Latest posts</span>
+      <h2 class="chloe-section__title" id="latest-posts-title">최근 글</h2>
+      <p class="chloe-section__sub">새로 쓴 글부터 만나보세요. <a href="{{ '/blog/' | relative_url }}">전체 글 보기 →</a></p>
+    </header>
+    <div class="chloe-latest-grid">
+      {% assign latest_posts = site.posts | sort: 'date' | reverse %}
+      {% for post in latest_posts limit:3 %}
+        <a class="chloe-post" href="{{ post.url | relative_url }}">
+          <div class="chloe-post__meta">
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</time>
+            {% if forloop.first %}<span class="chloe-post__cat">최신 글</span>{% endif %}
+          </div>
+          <h3 class="chloe-post__title">{{ post.title | escape }}</h3>
+          {% if post.excerpt %}
+            <p class="chloe-post__excerpt">{{ post.excerpt | strip_html | normalize_whitespace | truncate: 120 | escape }}</p>
+          {% endif %}
+          <span class="chloe-post__more">읽기 <span aria-hidden="true">→</span></span>
+        </a>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
 
   <section class="chloe-section chloe-section--muted" aria-labelledby="activities-title">
     <header class="chloe-section__head">
